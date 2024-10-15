@@ -8,7 +8,7 @@ config_list = [{
   "model": os.getenv("LLM_MODEL", "qwen-plus"),
   "base_url": os.getenv("BASE_URL", "https://dashscope.aliyuncs.com/compatible-mode/v1"),
   "api_key": os.getenv("API_KEY", "EMPTY"),
-  "price" : [0.004, 0.012]
+  "price": [0.004, 0.012]
 }]
 
 llm_config = {"config_list": config_list, "cache_seed": 42}
